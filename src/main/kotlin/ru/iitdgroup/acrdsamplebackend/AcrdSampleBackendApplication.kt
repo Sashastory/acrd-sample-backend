@@ -20,6 +20,42 @@ class AcrdSampleBackendApplication {
                 810, "ZU", "", 73, "MOSCOW", 6010, 211221,
                 "TEST AMEX RS IP", 123456789))
 
+        repository.save(Transaction("5222123456784568", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784561", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784562", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784563", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784564", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784565", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784566", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784560", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
+        repository.save(Transaction("5222123456784517", LocalDateTime.now(), 246, 0.50,
+                810, "ZU", "", 73, "MOSCOW", 6010, 211221,
+                "TEST AMEX RS IP", 123456789))
+
         logger.info("Transactions found with findAll():")
         repository.findAll().forEach { logger.info(it.toString()) }
 
