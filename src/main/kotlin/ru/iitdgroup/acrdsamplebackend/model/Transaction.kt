@@ -1,5 +1,6 @@
 package ru.iitdgroup.acrdsamplebackend.model
 
+import java.time.LocalDate
 import java.time.LocalDateTime
 
 import javax.persistence.Entity
@@ -13,7 +14,7 @@ data class Transaction(
         val otv: Number,
         val amount: Number,
         val currency: Number,
-        val operationCode: String,
+        val countryCode: String,
         val rules: String,
         val score: Number,
         val city: String,
